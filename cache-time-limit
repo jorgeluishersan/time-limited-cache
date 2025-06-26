@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Time Limited Cache Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>TimeLimitedCache</h1>
+
+    <label>Key: <input type="number" id="keyInput"></label>
+    <label>Value: <input type="text" id="valueInput"></label>
+    <label>Duration (ms): <input type="number" id="durationInput"></label>
+
+    <div class="buttons">
+      <button onclick="setKey()">Set Key</button>
+      <button onclick="getKey()">Get Key</button>
+      <button onclick="countKeys()">Count Active</button>
+    </div>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
